@@ -3,26 +3,17 @@ import Toybox.Lang;
 import Toybox.WatchUi;
 
 class G_91WApp extends Application.AppBase {
-
     function initialize() {
         AppBase.initialize();
     }
 
-    // onStart() is called on application start up
-    function onStart(state as Dictionary?) as Void {
+    function onStart(state as Lang.Dictionary?) as Void {
     }
 
-    // onStop() is called when your application is exiting
-    function onStop(state as Dictionary?) as Void {
+    function onStop(state as Lang.Dictionary?) as Void {
     }
 
-    // Return the initial view of your application here
     function getInitialView() as [Views] or [Views, InputDelegates] {
-        return [ new G_91WView() ];
+        return [new G_91WView()];
     }
-
-}
-
-function getApp() as G_91WApp {
-    return Application.getApp() as G_91WApp;
 }
