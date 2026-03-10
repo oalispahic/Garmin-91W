@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Connect IQ build output
+bin/
+
+# VS Code settings (optional — remove if you want to share settings)
+.vscode/
+
+# Developer key
+*.der

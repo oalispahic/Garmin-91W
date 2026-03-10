@@ -1,0 +1,6 @@
+<resources>
+    <fonts>
+        <font id="bold_time" filename="../fonts/bold_time.fnt" />
+        <font id="bold_else" filename="../fonts/bold_else.fnt" />
+    </fonts>
+</resources>
